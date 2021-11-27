@@ -20,8 +20,8 @@ repo = input("Enter GitHub repo link")
 
 lang = int(input("Enter language name \n 1.) Python(.py) \n 2.) JavaScript(.js) \n 3.) Ruby(.rb) \n 4.) GO(.go)"))
 
-output1 = './output1'
-output2 = './output2'
+output1 = input("Enter file path output 1")
+output2 = input("Enter file path output 2")
 
 o1 = open(output1, "w")
 o1.write("")
